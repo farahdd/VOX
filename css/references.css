@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Lato', sans-serif;
+    color: #4c4e4d;
+    font-size: 18px;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    vertical-align: baseline;
+}
+
+
+.links-container {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1080px;
+    padding: 16px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+button {
+    background: transparent;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #4f7177;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    border: 0;
+}
+
+h3 {
+    font-weight: 900;
+}

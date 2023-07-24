@@ -1,0 +1,216 @@
+
+.ad-block {
+    margin: 32px 0;
+    height: 90px;
+}
+
+.section-header{
+    position: relative;
+    margin: 0 auto;
+    width: 1080px;
+    font-family: 'Poltawski Nowy', serif;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: .02em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-header::before {
+    content: " ";
+    position: absolute;
+    right: -16px;
+    top: 50%;
+    height: 50px;
+    left: -16px;
+    border-left: 4px solid #fff200;
+    border-right: 4px solid #fff200;
+    border-top: 4px solid #fff200;
+    z-index: --1;
+}
+
+.first-section-heading {
+    position: absolute;
+    top: -35px;
+    left: 40%;
+    padding: 16px;
+    width: auto;
+    background-color: #fff;
+    z-index: 100;
+    text-align: center;
+}
+
+.first-section-news {
+    padding-top: 32px;
+    display: flex;
+}
+
+.first-section-news-column {
+    padding: 0 16px;
+}
+
+.first-section-news-column-box {
+    position: relative;
+}
+
+/* .first-section-news-column :not(.first-section-column-large) {
+    width: 22.5%;
+}  */
+
+
+/* .first-section-column-large {
+    width: 55%;
+} */
+
+.first-section-news-column-box-content {
+    padding: 24px 0;
+}
+
+.news-title {
+    font-size: 1.1em !important;
+}
+
+.first-section-news-title {
+    margin-bottom: 0.3rem;
+    font-size: .9em; 
+}
+
+.news-link a:link, .news-link a:visited {
+    color: #4c4e4d;
+}
+
+.news-link a:hover {
+    color: #333;
+}
+.news-link a:active {
+    color: #333;
+    border: 1px dotted black;
+}
+
+.first-section-news-description {
+    margin-bottom: 0.3em;
+}
+
+.first-section-news-author {
+    font-family:'Poltawski Nowy', serif;
+    font-size: .75em;
+    font-style: italic;
+}
+
+.news-author-about:link,  .news-author-about:visited{
+    color: #4f7177;
+}
+.news-author-about:hover {
+    color: #333;
+}
+.news-author-about:active {
+    color: #333;
+    border: 1px dotted black;
+}
+
+.first-section-column-large :first-child {
+    text-align: center;
+}
+
+.first-section-column-large :first-child .first-section-news-title {
+    font-size: 2em;
+    line-height: 1;
+}
+
+.first-section-column-large :first-child .first-section-news-description {
+    font-style: italic;
+}
+
+.first-section-news-sub-heading:link {
+    margin-bottom: 0.3em;
+    font-size: .625em;
+    font-weight: 800;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: #4c4e4d;
+    background-color: #fff200;
+    
+}
+
+.first-section-news-sub-heading:visited {
+    color: #4c4e4d;
+}
+
+.first-section-news-sub-heading:hover {
+    color: #333;
+}
+.first-section-news-sub-heading:active {
+    color: #333;
+    border: 1px dotted black;
+}
+
+.news-box-second {
+    display: flex;
+    align-items: center;
+}
+
+.news-box-second .news-title {
+    text-align: left !important;
+}
+
+.first-section-news-column > :not(:first-child)::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    border-top: 1px solid #4c4e4dae;
+}
+
+.first-section-column-img-small {
+    order: 2;
+    width: 30%;
+}
+
+.first-section-column-img-small img {
+    width: 100%;
+}
+
+.first-section-column-img-medium img {
+    width: 100%;
+    height: auto;
+}
+
+.first-section-column-img-large img {
+    width: 100%;
+}
+
+
+.section-heading-main{
+    position: relative;
+    margin: 0 auto;
+    width: 1080px;
+    font-family: 'Poltawski Nowy', serif;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: .02em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-heading-main ::before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 50px;
+    border-top: 4px solid #fff200;
+    z-index: --1;
+}
+
+.section-heading-main-elem {
+    position: absolute;
+    top: -35px;
+    padding: 16px;
+    width: auto;
+    background-color: #fff;
+    z-index: 100;
+}
+

@@ -1,0 +1,102 @@
+.vox-podcast-block {
+    margin: 32px 0;
+    padding: 32px 16px;
+    background: #f1f3f2;
+}
+
+.vox-podcast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vox-podcast-box {
+    width: 65%;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.vox-podcast-logo {
+    padding-right: 40px;
+    /* width: 35%; */
+}
+.vox-podcast-logo img{
+    width: 196.5px;
+    filter: drop-shadow(0 0 0.6rem #4c4e4d74);
+}
+
+.vox-podcast-box-info-follow {
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+    font-size: .75em;
+    color: #626262;
+    letter-spacing: .1em;
+}
+
+.vox-podcast-box-info-title {
+    margin-bottom: 0.3rem;
+    font-weight: 800;
+    font-size: .75em;
+    line-height: 1.25em;
+}
+
+.vox-podcast-box-info-clickbait {
+    margin-bottom: 1.2rem;
+    font-size: .75em;
+}
+
+.vox-podcast-player{
+    padding-top: 20px;
+    width: 100%;
+}
+
+.vox-podcast-player-box {
+    display: flex;
+}
+
+.vox-podcast-player-play-button {
+    width: 40px;
+    height: 40px;
+}
+
+.podcast-play-btn {
+    width: 100%;
+    height: 100%;
+    color: #a6a7ee;
+}
+
+.vox-podcast-player-title {
+    font-size: 1.2em;
+    height: 1.25em;
+    white-space: normal;
+    color: #555555bd;
+}
+
+.vox-podcast-player-tracker svg {
+    width: 100%;
+}
+
+.vox-podcast-title-head {
+    margin-bottom: 0.3rem;
+    font-weight: 800;
+    font-size: .75em;
+    letter-spacing: 2px;
+}
+
+.vox-podcast-title-name {
+    font-size: 2em;
+    font-weight: 800;
+    line-height: inherit;
+    margin-bottom: 0.3rem;
+}
+
+.podcast-subscribe {
+    margin: 6px 0 0;
+    padding: 12px;
+    font-weight: 800;
+    color: #4c4e4d;
+    text-align: center;
+    font-size: .75em;
+    background-color: #fff200;
+}
